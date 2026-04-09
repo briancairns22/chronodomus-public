@@ -2,7 +2,7 @@
 
 **continuED — Universal Patient-Owned Health Record**
 
-**Last Updated: March 23, 2026**
+**Last Updated: March 26, 2026**
 
 ---
 
@@ -141,13 +141,37 @@ continuED integrates with the following third-party services to provide core fun
 
 We do not share your individually identifiable health information with any of these services except as described above.
 
-## 8. Data Retention
+## 8. Data Retention and Deletion
 
-- **Active accounts**: Health records are retained as long as your account is active
-- **Account deletion**: Upon your request, we initiate deletion of your data
-- **HIPAA retention**: Per HIPAA regulations (45 CFR 164.530(j)), certain records and audit logs may be retained for up to **six (6) years** after the last date the record was created or in effect
-- **Permanent deletion**: After the retention period expires, data is permanently and irreversibly destroyed
-- **Export before deletion**: You may export your complete health record before requesting account deletion
+### 8.1 Active Accounts
+Health records are retained as long as your account is active and you continue to use the Service.
+
+### 8.2 Dormant Accounts
+If your account has had no login activity for **twelve (12) consecutive months**, we will classify it as dormant. Before any action is taken:
+- We will send you **three (3) email notifications** at 10 months, 11 months, and 12 months of inactivity
+- After the 12-month dormancy classification, your data will be retained for an **additional six (6) months** (18 months total from last activity) before permanent deletion begins
+- You may reactivate your account at any time during the dormancy period by logging in
+- If you do not reactivate, deletion will proceed as described in Section 8.3
+
+### 8.3 Account Deletion — Your Right to Complete Data Removal
+You may request deletion of your account and all associated data at any time. Upon receiving your deletion request:
+
+1. **Confirmation**: We will send you a confirmation email within **24 hours** acknowledging your request
+2. **Export opportunity**: You will have **14 days** from confirmation to export your complete health record in standard formats (FHIR R4 JSON, C-CDA XML, PDF, CSV) before deletion begins
+3. **Complete deletion**: We will permanently and irreversibly delete **100% of your personally identifiable data** within **45 days** of your request (or 45 days after the 14-day export window, whichever is later). This includes:
+   - All health records from connected EHR systems
+   - All patient-entered data, notes, and annotations
+   - All emergency wallet card data
+   - All sharing permissions and consent records
+   - All caregiver and proxy access records
+   - Your account credentials and profile information
+   - All device health data (HealthKit, wearable integrations)
+4. **Audit log retention**: Per HIPAA regulations (45 CFR 164.530(j)), audit logs documenting who accessed your records will be retained for **six (6) years** from the date of your deletion request. These logs contain only timestamps, user IDs, and action types — they do **not** contain your health data.
+5. **De-identified data**: If you previously opted into de-identified data research (Section 6), data that has already been de-identified and aggregated cannot be traced back to you and may remain in aggregate datasets. No new de-identified data will be generated from your records after deletion.
+6. **Verification**: Upon completion of deletion, we will send you a final confirmation email certifying that 100% of your identifiable data has been permanently destroyed.
+
+### 8.4 Backup Destruction
+Deleted data may persist in encrypted backups for up to **30 additional days** after the 45-day deletion window. These backups are encrypted with AES-256-GCM and are automatically purged on a rolling 30-day cycle. After this period, no copy of your data exists in any Cairns Care LLC system.
 
 ## 9. Children's Privacy
 
@@ -188,13 +212,58 @@ Email: briancairns22@gmail.com
 
 For HIPAA-related inquiries or to file a complaint, you may also contact the **U.S. Department of Health and Human Services Office for Civil Rights** at [https://www.hhs.gov/ocr](https://www.hhs.gov/ocr).
 
-## 13. HIPAA Notice
+## 13. Data Breach Notification
+
+Cairns Care LLC follows the HIPAA Breach Notification Rule (45 CFR 164.400-414). In the event of a breach of your unsecured Protected Health Information (PHI), here is exactly what will happen:
+
+### 13.1 What Counts as a Breach
+A breach is any unauthorized acquisition, access, use, or disclosure of your health information that compromises its security or privacy. This includes but is not limited to: unauthorized access to our systems, accidental exposure of health records, loss or theft of devices containing your data, or unauthorized sharing of your records.
+
+### 13.2 What We Will Do
+1. **Investigate immediately**: Upon discovering a potential breach, we will conduct a thorough investigation within **24 hours** to determine the nature and scope of the incident
+2. **Contain the breach**: We will take immediate technical steps to stop the unauthorized access and prevent further exposure
+3. **Notify you directly**: We will send you a **written notification within 60 days** of discovering the breach (as required by HIPAA), by email and postal mail. This notification will include:
+   - A plain-language description of **what happened** and when
+   - The **types of information** that were involved (e.g., medications, diagnoses, lab results)
+   - **Steps you should take** to protect yourself (e.g., monitoring credit reports if financial info was involved, contacting providers if clinical data was exposed)
+   - What **we are doing** to investigate, mitigate harm, and prevent future breaches
+   - **Contact information** for our Privacy Officer so you can ask questions
+4. **Notify HHS**: We will report the breach to the U.S. Department of Health and Human Services as required by law
+5. **Public notification**: If a breach affects 500 or more individuals, we will also notify prominent media outlets serving the affected area, as required by HIPAA
+
+### 13.3 What You Can Do
+- You may **request a copy of your audit log** at any time to see who has accessed your records
+- You may **file a complaint** with Cairns Care LLC or the HHS Office for Civil Rights
+- You may **revoke sharing permissions** immediately if you believe your shared data has been compromised
+- You may **delete your account** at any time (see Section 8.3)
+
+### 13.4 Our Commitment
+We will never attempt to hide, minimize, or delay notification of a breach. Transparency is a core value. If your data is compromised, you will know.
+
+## 14. Business Transfer — Your Rights If We Are Sold or Acquired
+
+If Cairns Care LLC is sold, merged with another company, or substantially all of its assets are acquired by another entity:
+
+### 14.1 Your Choices
+You will have the following options, clearly communicated **at least 60 days before** any transfer of your data to a new entity:
+
+1. **Continue with the new entity**: Your account and data transfer to the acquiring company under the same privacy protections described in this policy. The acquiring company must agree to honor this Privacy Policy or provide protections that are equally or more protective.
+2. **Export and delete**: You may export your complete health record and request deletion of 100% of your data before the transfer occurs (following the process in Section 8.3). Your data will not be transferred to the acquiring company.
+3. **Close your account**: You may close your account entirely. We will delete 100% of your data within 45 days and your data will not be part of any business transfer.
+
+### 14.2 Our Obligations
+- We will **never sell your individually identifiable health data** as a standalone asset. Your health records are not a product.
+- Any acquiring entity must execute a **Business Associate Agreement (BAA)** and agree to comply with HIPAA before receiving any Protected Health Information
+- If the acquiring entity's privacy practices are materially less protective than this policy, we will notify you and provide the export/delete option before any transfer
+- De-identified, aggregate data (which cannot be traced to any individual) may be included in business assets without individual consent, as it contains no personally identifiable information
+
+## 15. HIPAA Notice
 
 Cairns Care LLC is committed to full compliance with the **Health Insurance Portability and Accountability Act (HIPAA)**, including the Privacy Rule, Security Rule, and Breach Notification Rule.
 
 - We maintain a **Business Associate Agreement (BAA)** with every infrastructure vendor and subcontractor that handles Protected Health Information (PHI)
 - We conduct regular **risk assessments** as required by the HIPAA Security Rule
-- We maintain **policies and procedures** for breach identification, notification, and mitigation
+- We maintain **policies and procedures** for breach identification, notification, and mitigation as described in Section 13
 - Our workforce members receive **HIPAA training** and are bound by confidentiality obligations
 
 If you believe your health information privacy has been violated, you have the right to file a complaint with Cairns Care LLC or directly with the HHS Office for Civil Rights.
