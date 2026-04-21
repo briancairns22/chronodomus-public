@@ -1,0 +1,20 @@
+name: IP-clean scan
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  ip-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run IP-clean scanner
+        run: |
+          chmod +x scripts/ip_scan.sh
+          bash scripts/ip_scan.sh
