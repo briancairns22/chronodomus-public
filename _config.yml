@@ -12,6 +12,9 @@ kramdown:
 plugins:
   - jekyll-seo-tag
 
+include:
+  - CNAME
+
 exclude:
   - scripts/
   - CONTRIBUTING.md
