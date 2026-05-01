@@ -1,18 +1,24 @@
+---
+layout: default
+title: Terms of Service
+permalink: /terms/
+---
+
 # Terms of Service
 
-**continuED — Universal Patient-Owned Health Record**
+**CairnsHx — Universal Patient-Owned Health Record**
 
-**Last Updated: March 23, 2026**
+**Last Updated: April 30, 2026**
 
 ---
 
 ## 1. Agreement to Terms
 
-By accessing or using continuED ("the Service"), operated by **Cairns Care LLC**, a limited liability company organized under the laws of the **State of Nevada**, you agree to be bound by these Terms of Service ("Terms"). If you do not agree, do not use the Service.
+By accessing or using CairnsHx ("the Service"), operated by **Cairns Care LLC**, a limited liability company organized under the laws of the **State of Nevada**, you agree to be bound by these Terms of Service ("Terms"). If you do not agree, do not use the Service.
 
 ## 2. Service Description
 
-continuED is a patient-owned **Personal Health Record (PHR)** platform that aggregates, normalizes, and presents your health data from multiple sources into a unified, portable record. The Service connects to Electronic Health Record (EHR) systems via FHIR R4 APIs, integrates with device health data (e.g., Apple HealthKit), and provides clinical intelligence features including medication interaction checking, emergency wallet cards, and care team coordination tools.
+CairnsHx is a patient-owned **Personal Health Record (PHR)** platform that aggregates, normalizes, and presents your health data from multiple sources into a unified, portable record. The Service connects to Electronic Health Record (EHR) systems via FHIR R4 APIs, integrates with device health data (e.g., Apple HealthKit), and provides clinical intelligence features including medication interaction checking, emergency wallet cards, and care team coordination tools.
 
 ## 3. User Eligibility
 
@@ -32,17 +38,17 @@ You are solely responsible for maintaining the confidentiality of your login cre
 
 ## 5. Health Information Disclaimer
 
-**continuED is NOT a medical device.** The Service is not intended to diagnose, treat, cure, or prevent any disease or medical condition.
+**CairnsHx is NOT a medical device.** The Service is not intended to diagnose, treat, cure, or prevent any disease or medical condition.
 
-**continuED does NOT provide medical advice.** Information displayed within the platform — including clinical intelligence features, medication interaction alerts, and health summaries — is for **informational purposes only** and should not be used as a substitute for professional medical judgment.
+**CairnsHx does NOT provide medical advice.** Information displayed within the platform — including clinical intelligence features, medication interaction alerts, and health summaries — is for **informational purposes only** and should not be used as a substitute for professional medical judgment.
 
-**Always consult your healthcare provider** before making any decisions about your health, medications, or treatment plans based on information displayed in continuED.
+**Always consult your healthcare provider** before making any decisions about your health, medications, or treatment plans based on information displayed in CairnsHx.
 
 ## 6. Data Ownership
 
-**You own your health data.** continuED operates on a patient-ownership model:
+**You own your health data.** CairnsHx operates on a patient-ownership model:
 
-- All health records aggregated, entered, or generated within continuED **belong to you**
+- All health records aggregated, entered, or generated within CairnsHx **belong to you**
 - You may **export your complete health record** at any time in standard formats (FHIR R4 JSON, C-CDA, PDF)
 - You may **delete your data** at any time, subject to HIPAA retention requirements (see Section 12)
 - Cairns Care LLC claims no ownership interest in your health data
@@ -72,7 +78,7 @@ Cairns Care LLC may use **de-identified health data** (data stripped of all iden
 
 ## 10. Third-Party Integrations
 
-continuED connects to third-party EHR systems and health data sources via **FHIR R4** standards-based APIs, including but not limited to:
+CairnsHx connects to third-party EHR systems and health data sources via **FHIR R4** standards-based APIs, including but not limited to:
 
 - VA Lighthouse API (Department of Veterans Affairs)
 - Epic MyChart

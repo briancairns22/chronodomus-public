@@ -1,12 +1,18 @@
+---
+layout: default
+title: Privacy Policy
+permalink: /privacy/
+---
+
 # Privacy Policy
 
-**continuED — Universal Patient-Owned Health Record**
+**CairnsHx — Universal Patient-Owned Health Record**
 
-**Last Updated: March 26, 2026**
+**Last Updated: April 30, 2026**
 
 ---
 
-Cairns Care LLC ("we," "us," "our") operates the continuED platform. This Privacy Policy describes how we collect, use, protect, and share your information when you use our Service.
+Cairns Care LLC ("we," "us," "our") operates the CairnsHx platform. This Privacy Policy describes how we collect, use, protect, and share your information when you use our Service.
 
 ## 1. Information We Collect
 
@@ -87,7 +93,7 @@ We **never** use your health data for advertising or marketing purposes.
 
 ## 4. 42 CFR Part 2 Protections
 
-continuED provides enhanced protections for sensitive health information categories as required by **42 CFR Part 2** and related regulations:
+CairnsHx provides enhanced protections for sensitive health information categories as required by **42 CFR Part 2** and related regulations:
 
 - **Mental health** records
 - **Substance use disorder** records
@@ -129,7 +135,7 @@ We may use de-identified health data (data from which all 18 HIPAA identifiers h
 
 ## 7. Third-Party Services
 
-continuED integrates with the following third-party services to provide core functionality:
+CairnsHx integrates with the following third-party services to provide core functionality:
 
 | Service | Purpose | Data Exchanged |
 |---------|---------|----------------|
@@ -175,7 +181,7 @@ Deleted data may persist in encrypted backups for up to **30 additional days** a
 
 ## 9. Children's Privacy
 
-continuED is **not intended for children under 13 years of age**. We do not knowingly collect personal information from children under 13. If we discover that a child under 13 has provided us with personal information, we will delete it promptly.
+CairnsHx is **not intended for children under 13 years of age**. We do not knowingly collect personal information from children under 13. If we discover that a child under 13 has provided us with personal information, we will delete it promptly.
 
 For children aged 13-17, a parent or legal guardian must create and manage the account and consent to these terms on the minor's behalf, in compliance with **COPPA** (Children's Online Privacy Protection Act) and applicable state laws.
 

@@ -1,12 +1,18 @@
-# How to Sign Up for continuED
+---
+layout: default
+title: Sign Up
+permalink: /signup/
+---
 
-**Your complete guide to getting started with continuED**
+# How to Sign Up for CairnsHx
+
+**Your complete guide to getting started with CairnsHx**
 
 ---
 
 ## Overview
 
-Getting started with continuED takes about 5-10 minutes. By the end of this guide, you will have:
+Getting started with CairnsHx takes about 5-10 minutes. By the end of this guide, you will have:
 
 1. Created your account
 2. Connected your health record systems
@@ -18,9 +24,9 @@ Getting started with continuED takes about 5-10 minutes. By the end of this guid
 
 Choose your platform:
 
-- **iPhone / iPad**: Download from the App Store *(search "continuED Health")*
+- **iPhone / iPad**: Download from the App Store *(search "CairnsHx Health")*
 - **Mac**: Download from the Mac App Store or our website
-- **Web**: Visit [app.continued.health](https://app.continued.health) in any modern browser
+- **Web**: Visit [app.cairnshx.com](https://app.cairnshx.com) in any modern browser *(coming soon)*
 
 *[Screenshot: App Store listing — placeholder]*
 
@@ -28,7 +34,7 @@ Choose your platform:
 
 ## Step 2: Create Your Account
 
-1. Open continuED and tap **"Create Account"**
+1. Open CairnsHx and tap **"Create Account"**
 2. Enter your **name**, **email address**, and **date of birth**
 3. Create a **strong password** (minimum 12 characters, including uppercase, lowercase, number, and special character)
 4. Set up **multi-factor authentication (MFA)** — you can use:
@@ -57,13 +63,13 @@ Identity verification ensures that when you connect an EHR system, the records r
 
 ## Step 4: Connect Your Health Record Systems
 
-This is where continuED comes to life. Connect one or more of your health systems:
+This is where CairnsHx comes to life. Connect one or more of your health systems:
 
 1. From the home screen, tap **"Connect Health System"** (or navigate to Settings > Connected Systems)
 2. **Search** for your healthcare provider, hospital, or health system by name
 3. Tap the system to begin the connection
 4. You will be redirected to that system's **login page** — sign in with your existing patient portal credentials
-5. **Authorize** continuED to access your health records
+5. **Authorize** CairnsHx to access your health records
 6. Your records will begin syncing — this typically takes 30 seconds to 2 minutes depending on the volume of records
 
 Repeat for each health system you use.
@@ -72,7 +78,7 @@ Repeat for each health system you use.
 
 ### Supported EHR Systems
 
-continuED connects to health systems that support **FHIR R4** patient access APIs, including:
+CairnsHx connects to health systems that support **FHIR R4** patient access APIs, including:
 
 | Health System / EHR | Status |
 |---------------------|--------|
@@ -97,7 +103,7 @@ If you are a Veteran:
 1. Select **"Department of Veterans Affairs"** from the health system list
 2. You will be redirected to **VA.gov** to sign in
 3. Sign in with your **Login.gov**, **ID.me**, or **My HealtheVet** credentials
-4. Authorize continuED to access your VA health records
+4. Authorize CairnsHx to access your VA health records
 5. Your VA records will sync, including conditions, medications, allergies, labs, immunizations, and notes
 
 *[Screenshot: VA Lighthouse connection flow — placeholder]*
@@ -143,7 +149,7 @@ Once your records have synced, set up your emergency card:
 - Try resetting your password on the health system's portal directly
 
 ### "No records found"
-- Ensure the **name and date of birth** on your continuED account exactly match what your health system has on file
+- Ensure the **name and date of birth** on your CairnsHx account exactly match what your health system has on file
 - Some health systems take 24-48 hours to make new records available via FHIR APIs after a visit
 - If the issue persists, contact the health system's patient support to verify your FHIR access is enabled
 

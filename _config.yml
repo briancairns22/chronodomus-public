@@ -1,0 +1,29 @@
+title: CairnsHx
+description: Universal Patient-Owned Personal Health Record. Built by Cairns Care LLC.
+url: https://cairnshx.com
+baseurl: ""
+
+theme: jekyll-theme-cayman
+
+markdown: kramdown
+kramdown:
+  hard_wrap: false
+
+plugins:
+  - jekyll-seo-tag
+
+include:
+  - CNAME
+
+exclude:
+  - scripts/
+  - CONTRIBUTING.md
+  - .github/
+  - README.md
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default

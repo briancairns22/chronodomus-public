@@ -1,46 +1,52 @@
+---
+layout: default
+title: FAQ
+permalink: /faq/
+---
+
 # Frequently Asked Questions
 
-**continuED — Universal Patient-Owned Health Record**
+**CairnsHx — Universal Patient-Owned Health Record**
 
 ---
 
 ## General
 
-### What is continuED?
+### What is CairnsHx?
 
-continuED is a **universal, patient-owned Personal Health Record (PHR)** platform. It connects to your existing health systems (hospital portals, VA, clinics) and pulls all of your medical records into one unified, portable record that you own and control. Instead of logging into five different patient portals to piece together your health history, continuED gives you a single, complete view — with clinical intelligence features like medication interaction checking, emergency wallet cards, and care gap identification.
+CairnsHx is a **universal, patient-owned Personal Health Record (PHR)** platform. It connects to your existing health systems (hospital portals, VA, clinics) and pulls all of your medical records into one unified, portable record that you own and control. Instead of logging into five different patient portals to piece together your health history, CairnsHx gives you a single, complete view — with clinical intelligence features like medication interaction checking, emergency wallet cards, and care gap identification.
 
-### Is continuED free?
+### Is CairnsHx free?
 
-continuED offers a **free tier** that includes core record aggregation and basic features. Premium features — including advanced clinical intelligence, unlimited EHR connections, and priority support — are available through a paid subscription. Pricing details are available at signup.
+CairnsHx offers a **free tier** that includes core record aggregation and basic features. Premium features — including advanced clinical intelligence, unlimited EHR connections, and priority support — are available through a paid subscription. Pricing details are available at signup.
 
-### Who built continuED?
+### Who built CairnsHx?
 
-continuED is built by **Cairns Care LLC**, a Nevada-based company founded by Brian Cairns, a DNP (Doctor of Nursing Practice) student specializing in Psychiatric Mental Health at UCSF. The platform was designed from a clinical perspective by someone who understands both the technology and the healthcare system's shortcomings in patient data access.
+CairnsHx is built by **Cairns Care LLC**, a Nevada-based company founded by Brian Cairns, a DNP (Doctor of Nursing Practice) student specializing in Psychiatric Mental Health at UCSF. The platform was designed from a clinical perspective by someone who understands both the technology and the healthcare system's shortcomings in patient data access.
 
-### Does continuED replace my doctor?
+### Does CairnsHx replace my doctor?
 
-**No.** continuED is an informational tool that helps you organize and understand your health records. It does not diagnose conditions, prescribe treatments, or provide medical advice. Always consult your healthcare provider for medical decisions. Clinical intelligence features (like medication interaction alerts) are informational and should be discussed with your care team.
+**No.** CairnsHx is an informational tool that helps you organize and understand your health records. It does not diagnose conditions, prescribe treatments, or provide medical advice. Always consult your healthcare provider for medical decisions. Clinical intelligence features (like medication interaction alerts) are informational and should be discussed with your care team.
 
 ---
 
 ## Health Records
 
-### How does continuED get my health records?
+### How does CairnsHx get my health records?
 
-continuED connects to your healthcare providers' EHR (Electronic Health Record) systems using **FHIR R4**, the national standard for health data exchange. When you authorize a connection, we retrieve your records through the same secure APIs that patient portals use. You authenticate directly with each health system — we never ask for your portal passwords.
+CairnsHx connects to your healthcare providers' EHR (Electronic Health Record) systems using **FHIR R4**, the national standard for health data exchange. When you authorize a connection, we retrieve your records through the same secure APIs that patient portals use. You authenticate directly with each health system — we never ask for your portal passwords.
 
-### Does continuED work with VA records?
+### Does CairnsHx work with VA records?
 
-**Yes.** continuED integrates with the **VA Lighthouse API**, the Department of Veterans Affairs' official FHIR-based health data platform. If you are a Veteran receiving care through the VA, you can connect your VA health records to continuED with your VA.gov login credentials.
+**Yes.** CairnsHx integrates with the **VA Lighthouse API**, the Department of Veterans Affairs' official FHIR-based health data platform. If you are a Veteran receiving care through the VA, you can connect your VA health records to CairnsHx with your VA.gov login credentials.
 
-### Can I use continuED if I'm not a Veteran?
+### Can I use CairnsHx if I'm not a Veteran?
 
-**Absolutely.** continuED is a universal PHR — it works with any healthcare system that supports FHIR R4 connections, including Epic MyChart, Cerner/Oracle Health, and hundreds of other health systems. VA integration is one of many supported connections, not a requirement.
+**Absolutely.** CairnsHx is a universal PHR — it works with any healthcare system that supports FHIR R4 connections, including Epic MyChart, Cerner/Oracle Health, and hundreds of other health systems. VA integration is one of many supported connections, not a requirement.
 
 ### What if I find an error in my records?
 
-If you notice inaccurate information in records pulled from an EHR system, you should contact the originating healthcare provider to request a correction — they are the source of record. Within continuED, you can **annotate** records with corrections or notes, and you can flag discrepancies for your own reference. For patient-entered data, you can edit or correct it directly at any time.
+If you notice inaccurate information in records pulled from an EHR system, you should contact the originating healthcare provider to request a correction — they are the source of record. Within CairnsHx, you can **annotate** records with corrections or notes, and you can flag discrepancies for your own reference. For patient-entered data, you can edit or correct it directly at any time.
 
 ---
 
@@ -48,7 +54,7 @@ If you notice inaccurate information in records pulled from an EHR system, you s
 
 ### Is my data safe?
 
-Yes. Security is foundational to continuED:
+Yes. Security is foundational to CairnsHx:
 
 - All data is encrypted at rest with **AES-256-GCM** (the same standard used by the U.S. government for classified information)
 - All data in transit is protected by **TLS 1.2+**
@@ -58,7 +64,7 @@ Yes. Security is foundational to continuED:
 
 See our full [Privacy Policy](PRIVACY_POLICY.md) for details.
 
-### Is continuED HIPAA compliant?
+### Is CairnsHx HIPAA compliant?
 
 **Yes.** Cairns Care LLC maintains full HIPAA compliance including:
 
@@ -70,7 +76,7 @@ See our full [Privacy Policy](PRIVACY_POLICY.md) for details.
 
 ### What about my mental health records?
 
-continuED provides **enhanced protections** for sensitive health information under **42 CFR Part 2**, including mental health, substance use disorder, HIV/AIDS, genetic, and reproductive health records. These categories are:
+CairnsHx provides **enhanced protections** for sensitive health information under **42 CFR Part 2**, including mental health, substance use disorder, HIV/AIDS, genetic, and reproductive health records. These categories are:
 
 - **Firewalled by default** — stored in segregated, additionally protected segments
 - **Excluded from general sharing** — require separate, specific consent to share
@@ -90,7 +96,7 @@ De-identified data (with all identifying information removed) may be used for re
 
 ### Can I share records with my doctor?
 
-**Yes.** continuED lets you share specific portions of your health record with anyone you choose — providers, specialists, caregivers, or family members. Sharing is:
+**Yes.** CairnsHx lets you share specific portions of your health record with anyone you choose — providers, specialists, caregivers, or family members. Sharing is:
 
 - **Category-specific**: Choose exactly what to share (e.g., medications and allergies, but not mental health records)
 - **Time-limited**: Set an expiration on shared access
@@ -99,7 +105,7 @@ De-identified data (with all identifying information removed) may be used for re
 
 ### Can my caregiver access my records?
 
-Yes. continuED supports **caregiver delegation**, allowing you to grant a trusted person access to your health records. You control:
+Yes. CairnsHx supports **caregiver delegation**, allowing you to grant a trusted person access to your health records. You control:
 
 - Which record categories the caregiver can view
 - Whether the caregiver can manage appointments or communications on your behalf
@@ -144,9 +150,9 @@ Exports include all record categories, annotations, and patient-entered data.
 
 ## Platform and Compatibility
 
-### What devices does continuED work on?
+### What devices does CairnsHx work on?
 
-continuED is available on:
+CairnsHx is available on:
 
 - **iOS** (iPhone and iPad) — native SwiftUI app
 - **macOS** — native desktop app
@@ -155,11 +161,11 @@ continuED is available on:
 
 All platforms sync in real time, so your records are always up to date regardless of which device you use.
 
-### How is continuED different from Apple Health?
+### How is CairnsHx different from Apple Health?
 
-Apple Health is a device-level health data repository focused on fitness and wellness data from your devices and apps. continuED is fundamentally different:
+Apple Health is a device-level health data repository focused on fitness and wellness data from your devices and apps. CairnsHx is fundamentally different:
 
-| Feature | Apple Health | continuED |
+| Feature | Apple Health | CairnsHx |
 |---------|-------------|-----------|
 | **Clinical records** | Limited FHIR support | Full EHR aggregation across multiple systems |
 | **Record normalization** | Raw data from each source | Unified, deduplicated, normalized timeline |
@@ -169,7 +175,7 @@ Apple Health is a device-level health data repository focused on fitness and wel
 | **Sensitive record protections** | None | 42 CFR Part 2 firewall for mental health, substance use, etc. |
 | **Data portability** | Apple ecosystem only | FHIR R4, C-CDA, PDF export to any system |
 
-continuED can **import data from Apple HealthKit** (with your permission) to incorporate device health metrics alongside your clinical records.
+CairnsHx can **import data from Apple HealthKit** (with your permission) to incorporate device health metrics alongside your clinical records.
 
 ---
 
